@@ -187,18 +187,23 @@ To prevent warnings on a library specific basis, you can use the following synta
 - These notes are just slightly modified from Logan's https://gist.github.com/LoganWright/5aa9b3deb71e9de628ba
 - The dank grape gif is a masterpiece that belongs to FoxADHD
 
-## Follow Up Exercise
+# Follow Up Excercise - Using Cocoapods
+
+### Overview:
 Make sure you know how to use cocoapods! To test this knowledge, add a pod to this project and leverage what it has to offer.
 
-### Procedure:
-1. Fork this repository if you have not already done so.
-2. Add this pod to your project: https://github.com/cbpowell/MarqueeLabel
-3. Add a marquee'd label to the primary View Controller such that the following is true
+### Getting Started:
+1. Clone repository (or continue working off your previously cloned repo).
+2. Create a new branch off master and name the branch according to the form {name}/cocoapods-exercise  (e.g. epeterson/cocoapods-exercise).
+
+### Your Task:
+1. Add this pod to your project: https://github.com/cbpowell/MarqueeLabel
+2. Add a marquee'd label to the primary View Controller such that the following is true
  * The marquee's label’s text should begin flush to the left side of the label
  * The marquee scroll should wrap around to its original position after scrolling through the text (traveling left)
  * The marquee's animation curve is EASE IN / EASE OUT
  * The marquee scrolls at 30 pixels per second
  * The marquee will only scroll after being tapped by the user
- * The marquee's text is as follows: `According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.`
+ * The marquee's text is as follows: "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible."
  * There is a 10 pixel buffer between the last character in the label and the first one
-4. Submit your code to the instructor
+3. Open up a Pull Request to be reviewed by your instructor
